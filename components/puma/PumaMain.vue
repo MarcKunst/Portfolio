@@ -4,7 +4,7 @@
             <article>
                 <h3>MY ROLE</h3>
                 <div class="role-line"></div>
-                <p>During this project I worked on the design of the site. I also developed the logo for PUMA.</p>
+                <p>During this project I worked on the frontend of the website. I also worked on the look and feel of the website.</p>
             </article>
             <article>
                 <h3>TOOLS I USED</h3>
@@ -189,6 +189,24 @@ ul {
 
     #assignment {
     grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 1025px) {
+    #pingping-container {
+    margin: 4rem 15rem;
+    
+    }
+    #core-feature {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    }
+
+    #helping {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    }
+
+#reward {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     }
 }
 

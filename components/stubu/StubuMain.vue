@@ -4,15 +4,17 @@
             <article>
                 <h3>MY ROLE</h3>
                 <div class="role-line"></div>
-                <p>I am the lead designer of this project. I do user tests, Im researching accessibility patterns, and design the app.</p>
+                <p>I worked on this project with two designer. I was the developer of the team. It was my responsibility to translate the designs to a usable product. I decided to use nuxt.js. There wasn't much time for this project so I needed a framework that would solve a lot of things for me so I could focus on the details. For more information about my code please check out my <a target="blank" href=https://github.com/MarcKunst/nibud>Github</a>
+                </p>
             </article>
             <article>
                 <h3>TOOLS I USED</h3>
                 <div class="tools-line"></div>
                     <ul>
-                        <li>Figma</li>
-                        <li>Invision Studio</li>
-                        <li>Trello</li>
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
+                        <li>Nuxt.JS</li>
+                        <li>Graph.JS</li>
                     </ul>
             </article>
         </section>
@@ -21,42 +23,43 @@
         <div class="assignment-line"></div>
         <section id="assignment">
             <article>
-                <p>During my internship at the IVLab at the Municipality of Amsterdam I got involved in the project.</p>
-                <br>
-                <p>The purpose of the assignment is to develop a new digital PIP. PIP stands for a personal integration and participation process.</p>
+                <p>During my study I did a course called "Information design". The Nibud gave us the assignment to create a data visualisation for students to raise awareness for their student debts.</p>
             </article>
+        </section>
+        <section id="debt">
             <article>
-                <p>In this app immigrants can find everything related to their integration process. The immigrant forms his own trajectory together with their manager.</p>
-                <br>
-                <p>The app will be used by people of different native languages. Some of the users are also low literate. As a result, there is a great focus on accessibility while designing the app.
+                <h3 class="feature-headers">CALCULATING DEBT</h3>
+                <div class="core-line"></div>
+                <p>For the first part of our project we wanted to show the students how big their debts could become. We also wanted to show how big this debt is in commparison to other students. To do this, I made sure that the local storage would save all the data from the previous screens. This data would later on be shown in a bubble chart that compares the calculated the debt to the average debt of the dutch students.</p>
+            </article>
+            <img class="screen-img" src="../../assets/images/stubu1.png" alt="image of the event screen">
+            <img class="screen-img" src="../../assets/images/stubu2.png" alt="image of the overview screen">
+        </section>
+        <section id="budget">
+                <article>
+                <h3 class="feature-headers">BUDGET</h3>
+                <div class="core-line xshort"></div>
+                <p>The next step was to give the students insight in their budget. We took the most common sources of income and expenditure. After the student had filled in their data, we would show the student how much money they earned and how much the spend.</p>
+            </article>
+            <img class="screen-img" src="../../assets/images/stubu3.png" alt="image of the event screen">
+            <img class="screen-img" src="../../assets/images/stubu4.png" alt="image of the overview screen">
+        </section>
+        <section id="stories">
+            <article>
+                <h3 class="feature-headers">STORIES</h3>
+                <div class="core-line xshort"></div>
+                <p>At the end of the experience we would let the students hear stories of other students. We recorded audioclips from actual students.
                 </p>
             </article>
-        </section>
-        <section id="core-feature">
-            <article>
-                <h3 class="feature-headers">OVERVIEW</h3>
-                <div class="core-line xshort"></div>
-                <p>The integration process takes three years. That is why it is important for the user to know how he or she is doing. With the overview screen, the user can see where he / she stands in the process.</p>
-                <br>
-                <p>The overview screen can be adapted to the needs of the refugee. The route is divided into three phases. Each phase consists of events that the refugee must complete in order to integrate.</p>
-            </article>
-            <img class="screen-img" src="../../assets/images/new_overview_intake.png" alt="image of the event screen">
-            <img class="screen-img" src="../../assets/images/mountain_top.png" alt="image of the overview screen">
-        </section>
-        <section id="helping">
-                <article>
-                <h3 class="feature-headers">PROVIDING INFORMATION</h3>
-                <div class="core-line"></div>
-                <p>Finding the user of any event information. The information is presented in various ways. The user can watch a video, read the text or have the text read aloud.</p>
-                <br>
-                <p>It is also possible to create a checklist for each event. Here the user can keep track of his / her tasks.</p>
-            </article>
-            <img class="screen-img" src="../../assets/images/Event_detail_screen.jpg" alt="How to sign up for a bank account">
-            <img class="screen-img" src="../../assets/images/checklist.jpg" alt="tips">
+            <img class="screen-img" src="../../assets/images/stubu5.png" alt="image of the event screen">
+            <img class="screen-img" src="../../assets/images/stubu6.png" alt="image of the overview screen">
         </section>
         <section id="button-wrapper">
-            <a id="view-project-button" href="https://www.figma.com/file/0RyuJDS8Cp1RpvW1UakAv8/Persoonlijke-PIP-prototype?node-id=175%3A0" target="blank">
-                View Figma Designs
+            <a id="view-project-button" href="https://stubu.netlify.app/" target="blank">
+                See the final product
+            </a>
+            <a id="view-project-button" href="https://github.com/MarcKunst/nibud" target="blank">
+                Check Github repo
             </a>
         </section>
     </section>
@@ -93,7 +96,7 @@ export default {
     column-gap: 4rem;
 }
 
-#core-feature {
+#debt {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
@@ -103,7 +106,7 @@ export default {
     margin-top: 8rem;
 }
 
-#helping {
+#budget {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
@@ -113,7 +116,7 @@ export default {
     margin-top: 8rem;
 }
 
-#reward {
+#stories {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
@@ -235,11 +238,14 @@ ul {
     margin: 4rem 15rem;
     
     }
-    #core-feature {
+    #debt {
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     }
 
-    #helping {
+    #budget {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    }
+    #stories {
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     }
 

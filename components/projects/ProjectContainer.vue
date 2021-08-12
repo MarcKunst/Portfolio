@@ -20,15 +20,23 @@
             <article id="fabschoolino">
                 <h3>FABSCHOOLINO</h3>
                 <div class="underline fabschoolino-line"></div>
-                <p class="job-desc">Web design | Engineering</p>
+                <p class="job-desc">Frontend | Engineering</p>
                 <p class="info">I carried out this project during my internship at Waag Society. We gave arduino worshops with children.</p>
+            </article>
+        </nuxt-link>
+                <nuxt-link class="project-article" to="/stubu">
+            <article id="stubu">
+                <h3>STUBU</h3>
+                <div class="underline stubu-line"></div>
+                <p class="job-desc">Frontend</p>
+                <p class="info">I created an app where students can caculate the student debt. The can get insight in their budget and can listen to stories of other students.</p>
             </article>
         </nuxt-link>
         <nuxt-link class="project-article" to="/puma">
             <article id="puma">
                 <h3>PUMA</h3>
                 <div class="underline puma-line"></div>
-                <p class="job-desc">UI design</p>
+                <p class="job-desc">Frontend | Design</p>
                 <p class="info">I worked on a data visualization to see how much steel and copper there is in the foundations of buildings in the Netherlands.</p>
             </article>
         </nuxt-link>

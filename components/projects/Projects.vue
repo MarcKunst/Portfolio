@@ -31,4 +31,16 @@ export default {
 
 }
 
+@media (min-width: 1024px) {
+    #project-section{
+    padding: 4rem 15rem;
+    }
+}
+
+/* @media (min-width: 1025px) {
+    #project-section{
+    padding: 4rem 4rem;
+    }
+} */
+
 </style>

@@ -28,4 +28,10 @@ export default {
 
 }
 
+@media (min-width: 1025px) {
+    #about-section{
+    padding: 4rem 15rem 10rem;
+    }
+}
+
 </style>

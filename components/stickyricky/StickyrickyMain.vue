@@ -252,4 +252,22 @@ ul {
     }
 }
 
+@media (min-width: 1025px) {
+    #pingping-container {
+    margin: 4rem 15rem;
+    
+    }
+    #core-feature {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    }
+
+    #helping {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    }
+
+#reward {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    }
+}
+
 </style>

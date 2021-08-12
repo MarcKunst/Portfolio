@@ -30,4 +30,10 @@ export default {
 
 }
 
+@media (min-width: 1025px) {
+    #snippets-section{
+    padding: 4rem 15rem 15rem;
+    }
+}
+
 </style>
